@@ -1,0 +1,16 @@
+{
+  "description": "Presets for Open Source Libraries",
+  "extends": [
+    "config:base",
+    "group:allNonMajor",
+    "schedule:earlyMondays",
+    ":semanticCommitTypeAll(chore)"
+  ],
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
+}
