@@ -1,5 +1,7 @@
 # renovate-config
 
+![ci](https://github.com/posva/renovate-config/workflows/test/badge.svg?branch=main)
+
 Personal preset for [Renovate](https://github.com/singapore/renovate).
 
 ## Usage
