@@ -575,7 +575,12 @@
   dependencies:
     tslib "2.1.0"
 
-"@sindresorhus/is@4.0.0", "@sindresorhus/is@^4.0.0":
+"@sindresorhus/is@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.0.1.tgz#d26729db850fa327b7cacc5522252194404226f5"
+  integrity sha512-Qm9hBEBu18wt1PO2flE7LPb30BHMQt1eQgbV76YntdNk73XZGpn3izvGTYxbGgzXKgbCjiia0uxTd3aTNQrY/g==
+
+"@sindresorhus/is@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.0.0.tgz#2ff674e9611b45b528896d820d3d7a812de2f0e4"
   integrity sha512-FyD2meJpDPjyNQejSjvnhpgI/azsQkA4lGbuu5BQZfjvJ9cbRZXzeWL2HceCekW4lixO9JPesIIQkSoLjeJHNQ==
@@ -1068,10 +1073,10 @@ ccount@^1.0.0:
   resolved "https://registry.yarnpkg.com/ccount/-/ccount-1.1.0.tgz#246687debb6014735131be8abab2d93898f8d043"
   integrity sha512-vlNK021QdI7PNeiUh/lKkC/mNHHfV0m/Ad5JoI0TYtlBnJAslM/JIkm/tGC88bkLIwO6OQ5uV6ztS6kVAtCDlg==
 
-chalk@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
-  integrity sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
+chalk@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
+  integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
@@ -2598,10 +2603,10 @@ node-gyp@^7.1.2:
     tar "^6.0.2"
     which "^2.0.2"
 
-node-html-parser@3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-3.1.2.tgz#b7a3e3ca9708624e50e0dd84ec988885b2aa6c90"
-  integrity sha512-t1FyoT8/3GTs1kgP70SsXAdQzxA0etXsBc8fPQYRwETucmgkD9f+1A7jVhSngUavEueR3fF8BkfDv3dRGWOOWQ==
+node-html-parser@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-3.2.0.tgz#2b1b81297bc6387a868b227761b35e553d5bf92c"
+  integrity sha512-fXhiFFnccwoUW92VvDACbtg1Kv7Ky0Qj9Rv7ETWpczSFLW07JWM6zQ+d523kiHNpodQHlvDhtjK2T86AclzXzQ==
   dependencies:
     css-select "^3.1.2"
     he "1.2.0"
@@ -3164,10 +3169,10 @@ redis-parser@^3.0.0:
   dependencies:
     redis-errors "^1.0.0"
 
-redis@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/redis/-/redis-3.1.0.tgz#39daec130d74b78decca93513c61db0af5d86ce6"
-  integrity sha512-//lAOcEtNIKk2ekZibes5oyWKYUVWMvMB71lyD/hS9KRePNkB7AU3nXGkArX6uDKEb2N23EyJBthAv6pagD0uw==
+redis@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/redis/-/redis-3.1.2.tgz#766851117e80653d23e0ed536254677ab647638c"
+  integrity sha512-grn5KoZLr/qrRQVwoSkmzdbw6pwF+/rwODtrOr6vuBRiR/f3rjSTGupbF90Zpqm2oenix8Do6RV7pYEkGwlKkw==
   dependencies:
     denque "^1.5.0"
     redis-commands "^1.7.0"
@@ -3247,23 +3252,23 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@^25.3.4:
-  version "25.3.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.3.4.tgz#e2ee0a57873d3b7666a3e0af42eaf78bbd61cdb7"
-  integrity sha512-IBvW0KeWa9uy2s5+r+zU31xKH83fEaT6AdwSmMIoVG38254yw/7ILVYbuVbYf/3rfmLpNQkb1k0f+XAaRlm1/g==
+renovate@^25.7.6:
+  version "25.7.6"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.7.6.tgz#c5f341d414aece2b46d38bd9f63533ea4b862c78"
+  integrity sha512-2SWwbpZAnEBhr2RozqarVHCKKqsB6vq2cr8eav0AxZ50ndqzcc/i3tg4B0X+CJPbcSRVFAQYN2hcUhSl/zSJQw==
   dependencies:
     "@aws-sdk/client-ecr" "3.5.0"
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
     "@renovate/pep440" "1.0.0"
     "@renovatebot/ruby-semver" "1.0.0"
-    "@sindresorhus/is" "4.0.0"
+    "@sindresorhus/is" "4.0.1"
     "@yarnpkg/core" "2.4.0"
     "@yarnpkg/parsers" "2.3.0"
     azure-devops-node-api "10.2.2"
     bunyan "1.8.15"
     cacache "15.0.6"
-    chalk "4.1.0"
+    chalk "4.1.1"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
     commander "6.2.1"
@@ -3297,13 +3302,13 @@ renovate@^25.3.4:
     minimatch "3.0.4"
     moo "0.5.1"
     node-emoji "1.10.0"
-    node-html-parser "3.1.2"
+    node-html-parser "3.2.0"
     p-all "3.0.0"
     p-map "4.0.0"
     p-queue "6.6.2"
     parse-diff "0.8.1"
     parse-link-header "1.0.1"
-    redis "3.1.0"
+    redis "3.1.2"
     registry-auth-token "4.2.1"
     semver "7.3.5"
     semver-stable "3.0.0"
