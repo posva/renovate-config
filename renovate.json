@@ -2,6 +2,7 @@
   "description": "Presets for Open Source Libraries",
   "extends": [
     "config:base",
+    ":disablePeerDependencies",
     ":disableDependencyDashboard",
     "group:allNonMajor",
     "schedule:earlyMondays",
