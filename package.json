@@ -8,7 +8,7 @@
   },
   "files": [],
   "devDependencies": {
-    "renovate": "^29.32.4"
+    "renovate": "^29.36.2"
   },
   "repository": "git@github.com:posva/renovate-config.git",
   "author": "Eduardo San Martin Morote <posva13@gmail.com>",
