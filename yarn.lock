@@ -788,10 +788,10 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@renovate/pep440@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@renovate/pep440/-/pep440-1.0.0.tgz#9e05cac649b6a3d027cba7f2939b085de78f39ea"
-  integrity sha512-k3pZVxGEGpU7rpH507/9vxfFjuxX7qx4MSj9Fk+6zBsf/uZmAy8x97dNtZacbge7gP9TazbW1d7SEb5vsOmKlw==
+"@renovatebot/pep440@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-1.1.0.tgz#df105477dac56dbe771a1693eedc2fa271bc57b3"
+  integrity sha512-BWPGYWM9RKQhdlxvczvocTLP1gzEV0JQKX4RFRfyKaswNAtIWxzJw1uWWwQ2m5j0/HhCJHNSo9iHqRw4ufK1NQ==
   dependencies:
     xregexp "4.4.1"
 
@@ -802,7 +802,12 @@
   dependencies:
     tslib "2.1.0"
 
-"@sindresorhus/is@4.2.0", "@sindresorhus/is@^4.0.0":
+"@sindresorhus/is@4.2.1":
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.2.1.tgz#b88b5724283db80b507cd612caee9a1947412a20"
+  integrity sha512-BrzrgtaqEre0qfvI8sMTaEvx+bayuhPmfe2rfeUGPPHYr/PLxCOqkOe4TQTDPb+qcqgNcsAtXV/Ew74mcDIE8w==
+
+"@sindresorhus/is@^4.0.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.2.0.tgz#667bfc6186ae7c9e0b45a08960c551437176e1ca"
   integrity sha512-VkE3KLBmJwcCaVARtQpfuKcKv8gcBmUubrfHGF84dXuuW6jgsRYxPtzcIhPyK9WAPpRt2/xY6zkD9MnRaJzSyw==
@@ -2014,10 +2019,10 @@ globby@^11.0.1:
     merge2 "^1.3.0"
     slash "^3.0.0"
 
-good-enough-parser@1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/good-enough-parser/-/good-enough-parser-1.1.5.tgz#ac69879d36c63f9c650d336b85d88db8f43ced35"
-  integrity sha512-d7G51+xWAbqOjRJb52mHcOo1zV48zqKUUw1vQRdq8J4VKCbwpoH1WMDJIpIEtnTgeqzzErNKR8rU4cR4EGas4g==
+good-enough-parser@1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/good-enough-parser/-/good-enough-parser-1.1.7.tgz#a1f6a2fbc10e351dcbb61e322a5f17bbc43bd1eb"
+  integrity sha512-2E03CBmbGc61rDA6TbDsTGm1UywMviza5N1APzp6YtFcB9g6bjWwDIG54EeNQdavOhLGivsMh1U8tB+v5mzE7Q==
   dependencies:
     "@thi.ng/zipper" "1.0.3"
     "@types/moo" "0.5.5"
@@ -2539,10 +2544,10 @@ map-obj@^4.0.0:
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-4.3.0.tgz#9304f906e93faae70880da102a9f1df0ea8bb05a"
   integrity sha512-hdN1wVrZbb29eBGiGjJbeP8JbKjq1urkHJ/LIP/NY48MZ1QVXUsQBV1G1zvYFHn1XE06cwjBsOI2K3Ulnj1YXQ==
 
-markdown-it@12.3.0:
-  version "12.3.0"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.3.0.tgz#11490c61b412b8f41530319c005ecdcd4367171f"
-  integrity sha512-T345UZZ6ejQWTjG6PSEHplzNy5m4kF6zvUpHVDv8Snl/pEU0OxIK0jGg8YLVNwJvT8E0YJC7/2UvssJDk/wQCQ==
+markdown-it@12.3.2:
+  version "12.3.2"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.3.2.tgz#bf92ac92283fe983fe4de8ff8abfb5ad72cd0c90"
+  integrity sha512-TchMembfxfNVpHkbtriWltGWc+m3xszaRD0CZup7GFFhzIgQqxIfn3eGj1yZpfuflzPvfkt611B2Q/Bsk1YnGg==
   dependencies:
     argparse "^2.0.1"
     entities "~2.1.0"
@@ -3055,10 +3060,10 @@ parse-json@^5.0.0:
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
 
-parse-link-header@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/parse-link-header/-/parse-link-header-1.0.1.tgz#bedfe0d2118aeb84be75e7b025419ec8a61140a7"
-  integrity sha1-vt/g0hGK64S+deewJUGeyKYRQKc=
+parse-link-header@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/parse-link-header/-/parse-link-header-2.0.0.tgz#949353e284f8aa01f2ac857a98f692b57733f6b7"
+  integrity sha512-xjU87V0VyHZybn2RrCX5TIFGxTVZE6zqqZWMPlIKiSKuWh/X5WZdt+w1Ki1nXB+8L/KtL+nZ4iq+sfI6MrhhMw==
   dependencies:
     xtend "~4.0.1"
 
@@ -3361,18 +3366,18 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^31.21.2:
-  version "31.21.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-31.21.2.tgz#d33ac4296cfdaea7afa91abf9bb0e211d89f7cdc"
-  integrity sha512-8UwT+AOvIymJUZKdF9Cp8zERP+880b6XRrOnctmHR64yxXKRMKpgiW/wIq9XFhw+O3AemBU6RVP/zb9oYgkgvg==
+renovate@^31.28.2:
+  version "31.28.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-31.28.2.tgz#cda0463996da52f7c6a21b593e1186ac4d654219"
+  integrity sha512-jEq2bnmt8fa0zDgfES7MXWJbMwswN+Hgc9/gFCoaGCY+CQqvNu6doDj0jzUYJBmS9MjSzJEbn74HChObL5SEHg==
   dependencies:
     "@aws-sdk/client-ec2" "3.46.0"
     "@aws-sdk/client-ecr" "3.46.0"
     "@breejs/later" "4.1.0"
     "@iarna/toml" "2.2.5"
-    "@renovate/pep440" "1.0.0"
+    "@renovatebot/pep440" "1.1.0"
     "@renovatebot/ruby-semver" "1.0.0"
-    "@sindresorhus/is" "4.2.0"
+    "@sindresorhus/is" "4.2.1"
     "@yarnpkg/core" "3.1.0"
     "@yarnpkg/parsers" "2.4.1"
     auth-header "1.0.0"
@@ -3401,7 +3406,7 @@ renovate@^31.21.2:
     git-url-parse "11.6.0"
     github-url-from-git "1.5.0"
     global-agent "3.0.0"
-    good-enough-parser "1.1.5"
+    good-enough-parser "1.1.7"
     got "11.8.3"
     handlebars "4.7.7"
     handy-redis "2.3.1"
@@ -3413,7 +3418,7 @@ renovate@^31.21.2:
     json-stringify-pretty-compact "3.0.0"
     json5 "2.2.0"
     luxon "2.3.0"
-    markdown-it "12.3.0"
+    markdown-it "12.3.2"
     markdown-table "2.0.0"
     marshal "0.5.2"
     minimatch "3.0.4"
@@ -3425,7 +3430,7 @@ renovate@^31.21.2:
     p-map "4.0.0"
     p-queue "6.6.2"
     parse-diff "0.9.0"
-    parse-link-header "1.0.1"
+    parse-link-header "2.0.0"
     redis "3.1.2"
     registry-auth-token "4.2.1"
     remark "13.0.0"
@@ -3435,7 +3440,7 @@ renovate@^31.21.2:
     semver-utils "1.1.4"
     shlex "2.1.0"
     simple-git "2.48.0"
-    slugify "1.6.4"
+    slugify "1.6.5"
     traverse "0.6.6"
     tslib "2.3.1"
     upath "2.0.1"
@@ -3639,10 +3644,10 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-slugify@1.6.4:
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.6.4.tgz#33d84cc9e859ca3852e6537af6a5ff5bb9e439aa"
-  integrity sha512-Pcz296CK0uGnTf4iNQId79Uv6/5G16t0g0x3OsxWS8qVSOW+JXNnNHKVcuDiMgEGTWyK6zjlWXo2dvzV/FLf9Q==
+slugify@1.6.5:
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.6.5.tgz#c8f5c072bf2135b80703589b39a3d41451fbe8c8"
+  integrity sha512-8mo9bslnBO3tr5PEVFzMPIWwWnipGS0xVbYf65zxDqfNwmzYn1LpiKNrR6DlClusuvo+hDHd1zKpmfAe83NQSQ==
 
 smart-buffer@^4.1.0:
   version "4.2.0"
