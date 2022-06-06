@@ -1064,16 +1064,16 @@
   dependencies:
     "@seald-io/nedb" "3.0.0"
 
-"@jamiemagee/osv-offline@1.2.6":
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/@jamiemagee/osv-offline/-/osv-offline-1.2.6.tgz#387d3e6a251ff9858f5bf2ff75920c65e35c8eb9"
-  integrity sha512-PPIKlgCzHbKKtg4uzkwMeS9UjylFK4FMuQXeXDuPiAgJRj9Aphw+9US7a4kf0yaxgebHjOFCex7WG08MMx0hnw==
+"@jamiemagee/osv-offline@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/@jamiemagee/osv-offline/-/osv-offline-1.2.7.tgz#c0fa075c1bdd155d76b9d94bb73628ccb43efef7"
+  integrity sha512-5EquMiMtWNowdEEZDyV6idf5UZNpp9s2EjVvqtTohr/4C+UXM/8GSuRuqZ8a+MyUHKdZeHSO5eFrd5CeU1puRA==
   dependencies:
     "@jamiemagee/osv-offline-db" "1.1.4"
     "@octokit/rest" "18.12.0"
     adm-zip "^0.5.9"
     fs-extra "10.0.0"
-    got "11.8.3"
+    got "11.8.5"
     luxon "2.4.0"
 
 "@kwsites/file-exists@^1.1.1":
@@ -2060,10 +2060,10 @@ color-support@^1.1.2:
   resolved "https://registry.yarnpkg.com/color-support/-/color-support-1.1.3.tgz#93834379a1cc9a0c61f82f52f0d04322251bd5a2"
   integrity sha512-qiBjkpbMLO/HL68y+lh4q0/O1MZFj2RX6X/KmMa3+gJD3z+WwI1ZzDHysvqHGS3mP6mznPckpXmw1nI9cJjyRg==
 
-commander@9.2.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-9.2.0.tgz#6e21014b2ed90d8b7c9647230d8b7a94a4a419a9"
-  integrity sha512-e2i4wANQiSXgnrBlIatyHtP1odfUp0BbV5Y5nEGbxtIrStkEOAAzCUirvLBNXHLr7kwLvJl6V+4V3XV9x7Wd9w==
+commander@9.3.0:
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-9.3.0.tgz#f619114a5a2d2054e0d9ff1b31d5ccf89255e26b"
+  integrity sha512-hv95iU5uXPbK83mjrJKuZyFM/LBAoCV/XhVGkS5Je6tl7sxr6A0ITMw5WoRV46/UaJ46Nllm3Xt7IaJhXTIkzw==
 
 commander@^2.19.0:
   version "2.20.3"
@@ -2725,10 +2725,10 @@ good-enough-parser@1.1.7:
     klona "2.0.5"
     moo "0.5.1"
 
-got@11.8.3:
-  version "11.8.3"
-  resolved "https://registry.yarnpkg.com/got/-/got-11.8.3.tgz#f496c8fdda5d729a90b4905d2b07dbd148170770"
-  integrity sha512-7gtQ5KiPh1RtGS9/Jbv1ofDpBFuq42gyfEib+ejaRBJuj/3tQFeR5+gw57e4ipaU8c/rCjvX6fkQz2lyDlGAOg==
+got@11.8.5:
+  version "11.8.5"
+  resolved "https://registry.yarnpkg.com/got/-/got-11.8.5.tgz#ce77d045136de56e8f024bebb82ea349bc730046"
+  integrity sha512-o0Je4NvQObAuZPHLFoRSkdG2lTgtcynqymzg2Vupdx6PorhaT5MCbIyXG6d4D94kk8ZG57QeosgdiqfJWhEhlQ==
   dependencies:
     "@sindresorhus/is" "^4.0.0"
     "@szmarczak/http-timer" "^4.0.5"
@@ -4232,10 +4232,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^32.68.1:
-  version "32.68.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.68.1.tgz#266bd498fca4c7d7ed2bf503d9ac8752f7295ec3"
-  integrity sha512-LZDnhdmYtfV/qCwM8VyRWUfC08ymU8B3ErsrkraXRs2E+19vRwm+qNmirRuWgoz4NQ2bvCFZ3H0IRohlJhSY9w==
+renovate@^32.74.3:
+  version "32.74.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.74.3.tgz#08b17fb4ff4e4776aa3209a537eb8cf98b6afa1a"
+  integrity sha512-p2NTC/662v8+8vUfiKaazTLRxqc5/zsyFmMSJOMX5KXPRWON9A272Gl5PYdYsccHP1dBcliF2mlfu9vdPuCybg==
   dependencies:
     "@aws-sdk/client-ec2" "3.72.0"
     "@aws-sdk/client-ecr" "3.72.0"
@@ -4243,7 +4243,7 @@ renovate@^32.68.1:
     "@breejs/later" "4.1.0"
     "@cheap-glitch/mi-cron" "1.0.1"
     "@iarna/toml" "2.2.5"
-    "@jamiemagee/osv-offline" "1.2.6"
+    "@jamiemagee/osv-offline" "1.2.7"
     "@renovatebot/pep440" "2.1.1"
     "@renovatebot/ruby-semver" "1.1.3"
     "@sindresorhus/is" "4.6.0"
@@ -4256,7 +4256,7 @@ renovate@^32.68.1:
     chalk "4.1.2"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
-    commander "9.2.0"
+    commander "9.3.0"
     conventional-commits-detector "1.0.3"
     crypto-random-string "3.3.1"
     deepmerge "4.2.2"
@@ -4277,7 +4277,7 @@ renovate@^32.68.1:
     github-url-from-git "1.5.0"
     global-agent "3.0.0"
     good-enough-parser "1.1.7"
-    got "11.8.3"
+    got "11.8.5"
     graph-data-structure "2.0.0"
     handlebars "4.7.7"
     hasha "5.2.2"
