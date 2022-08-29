@@ -203,6 +203,50 @@
     "@aws-sdk/util-waiter" "3.110.0"
     tslib "^2.3.1"
 
+"@aws-sdk/client-rds@3.112.0":
+  version "3.112.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/client-rds/-/client-rds-3.112.0.tgz#3f9d32b20c5d7bf1d0d738d7c17f3d7e70418d91"
+  integrity sha512-A8Q+QTjaV2y5gK+3YGE6D1PLzcCswZPgQv5HjR2u6gw6WlzDu0iYTTFSLcDG8aW7TyS9r3Ugjj2kMYVJy8FIJA==
+  dependencies:
+    "@aws-crypto/sha256-browser" "2.0.0"
+    "@aws-crypto/sha256-js" "2.0.0"
+    "@aws-sdk/client-sts" "3.112.0"
+    "@aws-sdk/config-resolver" "3.110.0"
+    "@aws-sdk/credential-provider-node" "3.112.0"
+    "@aws-sdk/fetch-http-handler" "3.110.0"
+    "@aws-sdk/hash-node" "3.110.0"
+    "@aws-sdk/invalid-dependency" "3.110.0"
+    "@aws-sdk/middleware-content-length" "3.110.0"
+    "@aws-sdk/middleware-host-header" "3.110.0"
+    "@aws-sdk/middleware-logger" "3.110.0"
+    "@aws-sdk/middleware-recursion-detection" "3.110.0"
+    "@aws-sdk/middleware-retry" "3.110.0"
+    "@aws-sdk/middleware-sdk-rds" "3.110.0"
+    "@aws-sdk/middleware-serde" "3.110.0"
+    "@aws-sdk/middleware-signing" "3.110.0"
+    "@aws-sdk/middleware-stack" "3.110.0"
+    "@aws-sdk/middleware-user-agent" "3.110.0"
+    "@aws-sdk/node-config-provider" "3.110.0"
+    "@aws-sdk/node-http-handler" "3.110.0"
+    "@aws-sdk/protocol-http" "3.110.0"
+    "@aws-sdk/smithy-client" "3.110.0"
+    "@aws-sdk/types" "3.110.0"
+    "@aws-sdk/url-parser" "3.110.0"
+    "@aws-sdk/util-base64-browser" "3.109.0"
+    "@aws-sdk/util-base64-node" "3.55.0"
+    "@aws-sdk/util-body-length-browser" "3.55.0"
+    "@aws-sdk/util-body-length-node" "3.55.0"
+    "@aws-sdk/util-defaults-mode-browser" "3.110.0"
+    "@aws-sdk/util-defaults-mode-node" "3.110.0"
+    "@aws-sdk/util-user-agent-browser" "3.110.0"
+    "@aws-sdk/util-user-agent-node" "3.110.0"
+    "@aws-sdk/util-utf8-browser" "3.109.0"
+    "@aws-sdk/util-utf8-node" "3.109.0"
+    "@aws-sdk/util-waiter" "3.110.0"
+    entities "2.2.0"
+    fast-xml-parser "3.19.0"
+    tslib "^2.3.1"
+
 "@aws-sdk/client-s3@3.113.0":
   version "3.113.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/client-s3/-/client-s3-3.113.0.tgz#fc416139a1d1f5a8e07ac6f3d453042c6d84c4f9"
@@ -641,6 +685,17 @@
     "@aws-sdk/util-format-url" "3.110.0"
     tslib "^2.3.1"
 
+"@aws-sdk/middleware-sdk-rds@3.110.0":
+  version "3.110.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/middleware-sdk-rds/-/middleware-sdk-rds-3.110.0.tgz#ada55b2f7fee4f2291d96c6563cfa166db29f345"
+  integrity sha512-NM5fwxoWZtKhy0cMMgptp2FkmUkHlFkWNpi6m5NDJDq5AP+aCaZR0fBT6HEF5kR3DRZm1Mp+mFa4pRELjETP2Q==
+  dependencies:
+    "@aws-sdk/protocol-http" "3.110.0"
+    "@aws-sdk/signature-v4" "3.110.0"
+    "@aws-sdk/types" "3.110.0"
+    "@aws-sdk/util-format-url" "3.110.0"
+    tslib "^2.3.1"
+
 "@aws-sdk/middleware-sdk-s3@3.110.0":
   version "3.110.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/middleware-sdk-s3/-/middleware-sdk-s3-3.110.0.tgz#069603d33fbc349661facb0aaa131a95263e1b88"
@@ -1064,13 +1119,13 @@
   dependencies:
     "@seald-io/nedb" "3.0.0"
 
-"@jamiemagee/osv-offline@1.2.10":
-  version "1.2.10"
-  resolved "https://registry.yarnpkg.com/@jamiemagee/osv-offline/-/osv-offline-1.2.10.tgz#f315b77e430016597b8dd8db49dcb09cf6b9e9ee"
-  integrity sha512-shFFIKEdXVETzHIdLAWWPSBrRtWzTT3+K7eYKAfC2UztYn4y8FRpJb1RGflvo9YBU/iu68Qg24TrYyxxpaaBCA==
+"@jamiemagee/osv-offline@1.2.11":
+  version "1.2.11"
+  resolved "https://registry.yarnpkg.com/@jamiemagee/osv-offline/-/osv-offline-1.2.11.tgz#6f71d3e0248e2b2fa91e0a8b18939fff003ac11b"
+  integrity sha512-61UbXKZuhVsmHmjMIoCYdYRjdF5TUiASpWZrLjnPK+MrUFa4orizdgEfVumch87lN0jqfdIx/rsRuEl6KRf5xg==
   dependencies:
     "@jamiemagee/osv-offline-db" "1.1.4"
-    "@octokit/rest" "19.0.3"
+    "@octokit/rest" "19.0.4"
     adm-zip "^0.5.9"
     fs-extra "10.0.0"
     got "11.8.5"
@@ -1173,12 +1228,17 @@
   resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-12.11.0.tgz#da5638d64f2b919bca89ce6602d059f1b52d3ef0"
   integrity sha512-VsXyi8peyRq9PqIz/tpqiL2w3w80OgVMwBHltTml3LmVvXiphgeqmY9mvBw9Wu7e0QWk/fqD37ux8yP5uVekyQ==
 
-"@octokit/plugin-paginate-rest@^3.0.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-3.1.0.tgz#86f8be759ce2d6d7c879a31490fd2f7410b731f0"
-  integrity sha512-+cfc40pMzWcLkoDcLb1KXqjX0jTGYXjKuQdFQDc6UAknISJHnZTiBqld6HDwRJvD4DsouDKrWXNbNV0lE/3AXA==
+"@octokit/openapi-types@^13.4.0":
+  version "13.4.0"
+  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-13.4.0.tgz#06fe8fda93bf21bdd397fe7ef8805249efda6c06"
+  integrity sha512-2mVzW0X1+HDO3jF80/+QFZNzJiTefELKbhMu6yaBYbp/1gSMkVDm4rT472gJljTokWUlXaaE63m7WrWENhMDLw==
+
+"@octokit/plugin-paginate-rest@^4.0.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-4.1.0.tgz#670ac9ac369448c69a2371bfcd7e2b37d95534f2"
+  integrity sha512-2O5K5fpajYG5g62wjzHR7/cWYaCA88CextAW3vFP+yoIHD0KEdlVMHfM5/i5LyV+JMmqiYW7w5qfg46FR+McNw==
   dependencies:
-    "@octokit/types" "^6.41.0"
+    "@octokit/types" "^7.1.1"
 
 "@octokit/plugin-request-log@^1.0.4":
   version "1.0.4"
@@ -1214,13 +1274,13 @@
     node-fetch "^2.6.7"
     universal-user-agent "^6.0.0"
 
-"@octokit/rest@19.0.3":
-  version "19.0.3"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-19.0.3.tgz#b9a4e8dc8d53e030d611c053153ee6045f080f02"
-  integrity sha512-5arkTsnnRT7/sbI4fqgSJ35KiFaN7zQm0uQiQtivNQLI8RQx8EHwJCajcTUwmaCMNDg7tdCvqAnc7uvHHPxrtQ==
+"@octokit/rest@19.0.4":
+  version "19.0.4"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-19.0.4.tgz#fd8bed1cefffa486e9ae46a9dc608ce81bcfcbdd"
+  integrity sha512-LwG668+6lE8zlSYOfwPj4FxWdv/qFXYBpv79TWIQEpBLKA9D/IMcWsF/U9RGpA3YqMVDiTxpgVpEW3zTFfPFTA==
   dependencies:
     "@octokit/core" "^4.0.0"
-    "@octokit/plugin-paginate-rest" "^3.0.0"
+    "@octokit/plugin-paginate-rest" "^4.0.0"
     "@octokit/plugin-request-log" "^1.0.4"
     "@octokit/plugin-rest-endpoint-methods" "^6.0.0"
 
@@ -1237,6 +1297,13 @@
   integrity sha512-eJ2jbzjdijiL3B4PrSQaSjuF2sPEQPVCPzBvTHJD9Nz+9dw2SGH4K4xeQJ77YfTq5bRQ+bD8wT11JbeDPmxmGg==
   dependencies:
     "@octokit/openapi-types" "^12.11.0"
+
+"@octokit/types@^7.1.1":
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-7.1.1.tgz#a30fd6ca3279d59d532fa75583d65d93b7588e6d"
+  integrity sha512-Dx6cNTORyVaKY0Yeb9MbHksk79L8GXsihbG6PtWqTpkyA2TY1qBWE26EQXVG3dHwY9Femdd/WEeRUEiD0+H3TQ==
+  dependencies:
+    "@octokit/openapi-types" "^13.4.0"
 
 "@pnpm/constants@6.1.0":
   version "6.1.0"
@@ -1848,7 +1915,31 @@ bunyan@1.8.15:
     mv "~2"
     safe-json-stringify "~1"
 
-cacache@16.1.1, cacache@^16.1.0:
+cacache@16.1.2:
+  version "16.1.2"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-16.1.2.tgz#a519519e9fc9e5e904575dcd3b77660cbf03f749"
+  integrity sha512-Xx+xPlfCZIUHagysjjOAje9nRo8pRDczQCcXb4J2O0BLtH+xeVue6ba4y1kfJfQMAnM2mkcoMIAyOctlaRGWYA==
+  dependencies:
+    "@npmcli/fs" "^2.1.0"
+    "@npmcli/move-file" "^2.0.0"
+    chownr "^2.0.0"
+    fs-minipass "^2.1.0"
+    glob "^8.0.1"
+    infer-owner "^1.0.4"
+    lru-cache "^7.7.1"
+    minipass "^3.1.6"
+    minipass-collect "^1.0.2"
+    minipass-flush "^1.0.5"
+    minipass-pipeline "^1.2.4"
+    mkdirp "^1.0.4"
+    p-map "^4.0.0"
+    promise-inflight "^1.0.1"
+    rimraf "^3.0.2"
+    ssri "^9.0.0"
+    tar "^6.1.11"
+    unique-filename "^1.1.1"
+
+cacache@^16.1.0:
   version "16.1.1"
   resolved "https://registry.yarnpkg.com/cacache/-/cacache-16.1.1.tgz#4e79fb91d3efffe0630d5ad32db55cc1b870669c"
   integrity sha512-VDKN+LHyCQXaaYZ7rA/qtkURU+/yYhviUdvqEv2LT6QPZU8jpyzEkEVAcKlKLt5dJ5BRp11ym8lo3NKLluEPLg==
@@ -4188,18 +4279,19 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^32.169.1:
-  version "32.169.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.169.1.tgz#2e0beaba05816cba7e208e767ace65f4e9af3f3f"
-  integrity sha512-QOpjARofCon87fZ7ojyeP2C8iTctwtvPVGZAHFQNhUvmjD8NVSP158MfWUcicXBCuYMNuUu+Ba8fzPFriHxHJw==
+renovate@^32.181.0:
+  version "32.181.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.181.0.tgz#cdb4eef28e8a246ebae4bf40e17d8626b8b85673"
+  integrity sha512-KxQdBVEtFJMotQuKfgELsZS6QsLR1xlhW8CPphsPTxtfIJ8XfQGA6cGqBSGFlQzeVS8R4q8Ov+0mrGkg/dlCAQ==
   dependencies:
     "@aws-sdk/client-ec2" "3.112.0"
     "@aws-sdk/client-ecr" "3.112.0"
+    "@aws-sdk/client-rds" "3.112.0"
     "@aws-sdk/client-s3" "3.113.0"
     "@breejs/later" "4.1.0"
     "@cheap-glitch/mi-cron" "1.0.1"
     "@iarna/toml" "2.2.5"
-    "@jamiemagee/osv-offline" "1.2.10"
+    "@jamiemagee/osv-offline" "1.2.11"
     "@renovatebot/pep440" "2.1.3"
     "@renovatebot/ruby-semver" "1.1.4"
     "@sindresorhus/is" "4.6.0"
@@ -4209,7 +4301,7 @@ renovate@^32.169.1:
     auth-header "1.0.0"
     azure-devops-node-api "11.2.0"
     bunyan "1.8.15"
-    cacache "16.1.1"
+    cacache "16.1.2"
     chalk "4.1.2"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
