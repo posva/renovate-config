@@ -3476,10 +3476,10 @@ ini@4.1.1:
   resolved "https://registry.yarnpkg.com/ini/-/ini-4.1.1.tgz#d95b3d843b1e906e56d6747d5447904ff50ce7a1"
   integrity sha512-QQnnxNyfvmHFIsj7gkPcYymR8Jdw/o7mp5ZFihxn6h8Ci6fh3Dx4E1gPjpQEpIuPo9XVNY/ZUwh4BPMjGyL01g==
 
-install-artifact-from-github@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/install-artifact-from-github/-/install-artifact-from-github-1.3.1.tgz#eefaad9af35d632e5d912ad1569c1de38c3c2462"
-  integrity sha512-3l3Bymg2eKDsN5wQuMfgGEj2x6l5MCAv0zPL6rxHESufFVlEAKW/6oY9F1aGgvY/EgWm5+eWGRjINveL4X7Hgg==
+install-artifact-from-github@^1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/install-artifact-from-github/-/install-artifact-from-github-1.3.3.tgz#57d89bacfa0f47d7307fe41b6247cda9f9a8079c"
+  integrity sha512-x79SL0d8WOi1ZjXSTUqqs0GPQZ92YArJAN9O46wgU9wdH2U9ecyyhB9YGDbPe2OLV4ptmt6AZYRQZ2GydQZosQ==
 
 internal-slot@^1.0.3:
   version "1.0.3"
@@ -4303,10 +4303,10 @@ node-fetch@^2.6.7:
   dependencies:
     whatwg-url "^5.0.0"
 
-node-gyp@^9.3.0:
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-9.3.0.tgz#f8eefe77f0ad8edb3b3b898409b53e697642b319"
-  integrity sha512-A6rJWfXFz7TQNjpldJ915WFb1LnhO4lIve3ANPbWreuEoLoKlFT3sxIepPBkLhM27crW8YmN+pjlgbasH6cH/Q==
+node-gyp@^9.3.1:
+  version "9.3.1"
+  resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-9.3.1.tgz#1e19f5f290afcc9c46973d68700cbd21a96192e4"
+  integrity sha512-4Q16ZCqq3g8awk6UplT7AuxQ35XN4R/yf/+wSAwcBUAjg7l58RTactWaP8fIDTi0FzI7YcVLujwExakZlfWkXg==
   dependencies:
     env-paths "^2.2.0"
     glob "^7.1.4"
@@ -4695,14 +4695,14 @@ quick-lru@^4.0.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-4.0.1.tgz#5b8878f113a58217848c6482026c73e1ba57727f"
   integrity sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==
 
-re2@1.18.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/re2/-/re2-1.18.0.tgz#6d6f47c5aaa436eb7a7d68b260f8cf25d7948619"
-  integrity sha512-MoCYZlJ9YUgksND9asyNF2/x532daXU/ARp1UeJbQ5flMY6ryKNEhrWt85aw3YluzOJlC3vXpGgK2a1jb0b4GA==
+re2@1.19.0:
+  version "1.19.0"
+  resolved "https://registry.yarnpkg.com/re2/-/re2-1.19.0.tgz#6d867404fe3c63d874c7d7bfdc0c9d4add059c87"
+  integrity sha512-y0LcLZgBF3L7mDtNfbghb7dCmChYQO2QsUGklNueAJUH+HAZO8UZUubgNsf6OxRTAQpeE4KMPR7vcpK3+Q+GiA==
   dependencies:
-    install-artifact-from-github "^1.3.1"
+    install-artifact-from-github "^1.3.3"
     nan "^2.17.0"
-    node-gyp "^9.3.0"
+    node-gyp "^9.3.1"
 
 read-pkg-up@^7.0.1:
   version "7.0.1"
@@ -4815,10 +4815,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^35.103.0:
-  version "35.103.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.103.0.tgz#e9a7e140a48e1e8c9e588419298bee29a5644e40"
-  integrity sha512-JCIlMPO5XdhvqV21O0Md8hFLOdFve4bePANVmahBcAlp7EwDQyLYySdwx2b/jZ2EouyNGCLoMT/kBjyDMcFO5g==
+renovate@^35.110.1:
+  version "35.110.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.110.1.tgz#c45ba1d32692afa113ff39c3f3ea932d0e44eee4"
+  integrity sha512-JI4TIcIxtMV/tcxQZBBSRy4rxFT38nXcqDyt+o4B3ImFu0ZkRpE2dQI8jwT/WFCAWKs3Nkhq08LuaQurlthJaA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.332.0"
     "@aws-sdk/client-ec2" "3.332.0"
@@ -4915,7 +4915,7 @@ renovate@^35.103.0:
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shlex "2.1.2"
-    simple-git "3.18.0"
+    simple-git "3.19.0"
     slugify "1.6.6"
     source-map-support "0.5.21"
     traverse "0.6.7"
@@ -4927,7 +4927,7 @@ renovate@^35.103.0:
     xmldoc "1.3.0"
     zod "3.21.4"
   optionalDependencies:
-    re2 "1.18.0"
+    re2 "1.19.0"
 
 repeat-string@^1.0.0:
   version "1.6.1"
@@ -5163,10 +5163,10 @@ signal-exit@^4.0.1:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.0.1.tgz#96a61033896120ec9335d96851d902cc98f0ba2a"
   integrity sha512-uUWsN4aOxJAS8KOuf3QMyFtgm1pkb6I+KRZbRF/ghdf5T7sM+B1lLLzPDxswUjkmHyxQAVzEgG35E3NzDM9GVw==
 
-simple-git@3.18.0:
-  version "3.18.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.18.0.tgz#2e25adbbc1e3df5ee97c0f1b468ddadf3f0f9adf"
-  integrity sha512-Yt0GJ5aYrpPci3JyrYcsPz8Xc05Hi4JPSOb+Sgn/BmPX35fn/6Fp9Mef8eMBCrL2siY5w4j49TA5Q+bxPpri1Q==
+simple-git@3.19.0:
+  version "3.19.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.19.0.tgz#fe8d0cd86a0e68372b75c0c44a0cb887201c3f7d"
+  integrity sha512-hyH2p9Ptxjf/xPuL7HfXbpYt9gKhC1yWDh3KYIAYJJePAKV7AEjLN4xhp7lozOdNiaJ9jlVvAbBymVlcS2jRiA==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
