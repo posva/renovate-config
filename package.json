@@ -1,5 +1,6 @@
 {
   "name": "@posva/renovate-config",
+  "packageManager": "pnpm@8.11.0",
   "private": true,
   "description": "Presets for Open Source Libraries",
   "version": "1.0.0",
