@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   renovate:
-    specifier: ^37.225.0
-    version: 37.225.0(typanion@3.14.0)
+    specifier: ^37.235.1
+    version: 37.235.1(typanion@3.14.0)
 
 packages:
 
@@ -974,8 +974,8 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@cdktf/hcl2json@0.20.3:
-    resolution: {integrity: sha512-GCq/GrVRXI0nR5gQM0LW7pxEA/tZav0dGQZGowHif/vXsMlOZjTh/F1ISVmDUCkNHV7pgbFmy6tDg7RtsiavXw==}
+  /@cdktf/hcl2json@0.20.4:
+    resolution: {integrity: sha512-j9rQckF5lm8+9NB6kXqUc/YFKbo5SzZVp96xa2uYe3+1cmjum4SsA3P4M1du6Vuw6GRUh6mtYY6e3JQbZVQ05g==}
     dependencies:
       fs-extra: 11.2.0
     dev: true
@@ -3616,8 +3616,8 @@ packages:
     hasBin: true
     dev: true
 
-  /jsonata@2.0.3:
-    resolution: {integrity: sha512-Up2H81MUtjqI/dWwWX7p4+bUMfMrQJVMN/jW6clFMTiYP528fBOBNtRu944QhKTs3+IsVWbgMeUTny5fw2VMUA==}
+  /jsonata@2.0.4:
+    resolution: {integrity: sha512-vfavX4/G/yrYxE+UrmT/oUJ3ph7KqUrb0R7b0LVRcntQwxw+Z5kA1pNUIQzX5hF04Oe1eKxyoIPsmXtc2LgJTQ==}
     engines: {node: '>= 8'}
     dev: true
 
@@ -4455,8 +4455,8 @@ packages:
       strip-json-comments: 2.0.1
     dev: true
 
-  /re2@1.20.9:
-    resolution: {integrity: sha512-ZYcPTFr5ha2xq3WQjBDTF9CWPSDK1z28MLh5UFRxc//7X8BNQ3A7yR7ITnP0jO346661ertdKVFqw1qoL3FMEQ==}
+  /re2@1.20.10:
+    resolution: {integrity: sha512-/5JjSPXobSDaKFL6rD5Gb4qD4CVBITQb7NAxfQ/NA7o0HER3SJAPV3lPO2kvzw0/PN1pVJNVATEUk4y9j7oIIA==}
     requiresBuild: true
     dependencies:
       install-artifact-from-github: 1.3.5
@@ -4570,8 +4570,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.225.0(typanion@3.14.0):
-    resolution: {integrity: sha512-bOUraGh6t+qeGc7fzDyuGhXqjNgWSRjh3lhh5PlgpIJAoRxyqm54mjq81HTYLVzxDK9Wf0Nm6pQeOm58nv6Irg==}
+  /renovate@37.235.1(typanion@3.14.0):
+    resolution: {integrity: sha512-KLZesF4mS5oygBZiGn2xoXNrqqefL0WVLkyvpOgb2KuYLe7cHIQVlGiuCeIXyApseXCdLB6UeOYilIUbTqpjeg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4582,7 +4582,7 @@ packages:
       '@aws-sdk/client-s3': 3.363.0
       '@aws-sdk/credential-providers': 3.363.0
       '@breejs/later': 4.2.0
-      '@cdktf/hcl2json': 0.20.3
+      '@cdktf/hcl2json': 0.20.4
       '@opentelemetry/api': 1.7.0
       '@opentelemetry/context-async-hooks': 1.21.0(@opentelemetry/api@1.7.0)
       '@opentelemetry/exporter-trace-otlp-http': 0.48.0(@opentelemetry/api@1.7.0)
@@ -4645,7 +4645,7 @@ packages:
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
       json5: 2.2.3
-      jsonata: 2.0.3
+      jsonata: 2.0.4
       klona: 2.0.6
       lru-cache: 10.2.0
       luxon: 3.4.4
@@ -4684,7 +4684,7 @@ packages:
       xmldoc: 1.3.0
       zod: 3.22.4
     optionalDependencies:
-      re2: 1.20.9
+      re2: 1.20.10
     transitivePeerDependencies:
       - '@aws-sdk/signature-v4-crt'
       - aws-crt
