@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       renovate:
-        specifier: ^38.80.0
-        version: 38.80.0(@aws-sdk/client-sso-oidc@3.637.0(@aws-sdk/client-sts@3.637.0))(encoding@0.1.13)(typanion@3.14.0)
+        specifier: ^38.93.3
+        version: 38.93.3(@aws-sdk/client-sso-oidc@3.637.0(@aws-sdk/client-sts@3.637.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -845,8 +845,8 @@ packages:
   '@types/yauzl@2.10.3':
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
 
-  '@yarnpkg/core@4.1.2':
-    resolution: {integrity: sha512-2jcHRIJwjOOdl7mFysdz5FLxl4JWWJJEwesaKMRYmVwcqXolItX/gXdL3AjTD0umlBySccK9TulRD2/YL2Y0YQ==}
+  '@yarnpkg/core@4.1.3':
+    resolution: {integrity: sha512-s9CBcIgrqZOzWXt6m2Q8vuv0Wu+Oz8NFkvxoR5qLtH1Du/el8ZPtrh0Gw38iBe4hXav5/jmuZ9qg8jo6prezKg==}
     engines: {node: '>=18.12.0'}
 
   '@yarnpkg/fslib@3.1.0':
@@ -863,8 +863,8 @@ packages:
     resolution: {integrity: sha512-/HcYgtUSiJiot/XWGLOlGxPYUG65+/31V8oqk17vZLW1xlCoR4PampyePljOxY2n8/3jz9+tIFzICsyGujJZoA==}
     engines: {node: '>=18.12.0'}
 
-  '@yarnpkg/shell@4.0.2':
-    resolution: {integrity: sha512-DLZSx06OoEbPY1uePt7pKEgpWDk96PldrCdWBPqI5Np5/YAEo6+toVcjz+6fORMOE8PS3Bsep1Nfm2mUrY1Oxg==}
+  '@yarnpkg/shell@4.1.0':
+    resolution: {integrity: sha512-vm0QqqCBuNrVZbzk1gre0G/FUoT8naCYu/gjz+WlmBKPgV5MmFe2Bdm4ApGLQqvg6eS94TXmUpjSHdBzzN3P0Q==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -967,8 +967,8 @@ packages:
   before-after-hook@2.2.3:
     resolution: {integrity: sha512-NzUnlZexiaH/46WDhANlyR2bXRopNg4F/zuSA3OpZnllCUgRaOF2znDioDWrmbNVsuZk6l9pMquQB38cfBZwkQ==}
 
-  better-sqlite3@11.2.1:
-    resolution: {integrity: sha512-Xbt1d68wQnUuFIEVsbt6V+RG30zwgbtCGQ4QOcXVrOH0FE4eHk64FWZ9NUfRHS4/x1PXqwz/+KOrnXD7f0WieA==}
+  better-sqlite3@11.3.0:
+    resolution: {integrity: sha512-iHt9j8NPYF3oKCNOO5ZI4JwThjt3Z6J6XrcwG85VNMVzv1ByqrHWv5VILEbCMFWDsoHhXvQ7oC8vgRXFAKgl9w==}
 
   bignumber.js@9.1.2:
     resolution: {integrity: sha512-2/mKyZH9K85bzOEfhXDBFZTGd1CTs+5IHpeFQo9luiBG7hghdC851Pj2WAhb6E3R6b9tZj/XKhbg4fum+Kepug==}
@@ -2393,8 +2393,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@38.80.0:
-    resolution: {integrity: sha512-sgNbqEfUBDWJpE/dq9WLsY3rexuacO3AKZYc9ypioXItrqIAjF0571CZarU/f2z+UPahFAy1i9dGPss0C4Z7DQ==}
+  renovate@38.93.3:
+    resolution: {integrity: sha512-2uZhgMWzJxEmQdJc839ZU8rcekKAmhVdtxptBdN45ZvETx8SRa5tnlees/DmGKz7wWIQdnE6p/MZXLGAjyZ8iQ==}
     engines: {node: ^20.15.1, pnpm: ^9.0.0}
     hasBin: true
 
@@ -2867,6 +2867,11 @@ packages:
 
   yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
+
+  yaml@2.5.1:
+    resolution: {integrity: sha512-bLQOjaX/ADgQ20isPJRvF0iRUHIxVhYvr53Of7wGcWlO2jvtUlH5m87DsmulFVxRpNLOnI4tB6p/oh8D7kpn9Q==}
+    engines: {node: '>= 14'}
+    hasBin: true
 
   yargs-parser@18.1.3:
     resolution: {integrity: sha512-o50j0JeToy/4K6OZcaQmW6lyXXKhq7csREXcDwk2omFPJEwUNOVtJKvmDr9EI1fAJZUyZcRF7kxGBWmRXudrCQ==}
@@ -4513,7 +4518,7 @@ snapshots:
       '@types/node': 22.0.0
     optional: true
 
-  '@yarnpkg/core@4.1.2(typanion@3.14.0)':
+  '@yarnpkg/core@4.1.3(typanion@3.14.0)':
     dependencies:
       '@arcanis/slice-ansi': 1.1.1
       '@types/semver': 7.5.8
@@ -4521,7 +4526,7 @@ snapshots:
       '@yarnpkg/fslib': 3.1.0
       '@yarnpkg/libzip': 3.1.0(@yarnpkg/fslib@3.1.0)
       '@yarnpkg/parsers': 3.0.2
-      '@yarnpkg/shell': 4.0.2(typanion@3.14.0)
+      '@yarnpkg/shell': 4.1.0(typanion@3.14.0)
       camelcase: 5.3.1
       chalk: 3.0.0
       ci-info: 4.0.0
@@ -4559,7 +4564,7 @@ snapshots:
       js-yaml: 3.14.1
       tslib: 2.7.0
 
-  '@yarnpkg/shell@4.0.2(typanion@3.14.0)':
+  '@yarnpkg/shell@4.1.0(typanion@3.14.0)':
     dependencies:
       '@yarnpkg/fslib': 3.1.0
       '@yarnpkg/parsers': 3.0.2
@@ -4660,7 +4665,7 @@ snapshots:
 
   before-after-hook@2.2.3: {}
 
-  better-sqlite3@11.2.1:
+  better-sqlite3@11.3.0:
     dependencies:
       bindings: 1.5.0
       prebuild-install: 7.1.2
@@ -6257,7 +6262,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@38.80.0(@aws-sdk/client-sso-oidc@3.637.0(@aws-sdk/client-sts@3.637.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@38.93.3(@aws-sdk/client-sso-oidc@3.637.0(@aws-sdk/client-sts@3.637.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.637.0
       '@aws-sdk/client-ec2': 3.641.0
@@ -6284,7 +6289,7 @@ snapshots:
       '@renovatebot/pep440': 3.0.20
       '@renovatebot/ruby-semver': 3.0.23
       '@sindresorhus/is': 4.6.0
-      '@yarnpkg/core': 4.1.2(typanion@3.14.0)
+      '@yarnpkg/core': 4.1.3(typanion@3.14.0)
       '@yarnpkg/parsers': 3.0.2
       agentkeepalive: 4.5.0
       aggregate-error: 3.1.0
@@ -6325,7 +6330,6 @@ snapshots:
       handlebars: 4.7.8
       ignore: 5.3.2
       ini: 4.1.3
-      js-yaml: 4.1.0
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
       json5: 2.2.3
@@ -6365,9 +6369,10 @@ snapshots:
       validate-npm-package-name: 5.0.1
       vuln-vects: 1.1.0
       xmldoc: 1.3.0
+      yaml: 2.5.1
       zod: 3.23.8
     optionalDependencies:
-      better-sqlite3: 11.2.1
+      better-sqlite3: 11.3.0
       openpgp: 5.11.2
       re2: 1.21.4
     transitivePeerDependencies:
@@ -6889,6 +6894,8 @@ snapshots:
   xtend@4.0.2: {}
 
   yallist@4.0.0: {}
+
+  yaml@2.5.1: {}
 
   yargs-parser@18.1.3:
     dependencies:
