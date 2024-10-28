@@ -21,5 +21,6 @@
       "automerge": true,
       "automergeStrategy": "squash"
     }
-  ]
+  ],
+  "ignoreDeps": ["conventional-changelog-cli"]
 }
