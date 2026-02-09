@@ -1,6 +1,6 @@
 {
   "name": "@posva/renovate-config",
-  "packageManager": "pnpm@10.28.2",
+  "packageManager": "pnpm@10.29.2",
   "private": true,
   "description": "Presets for Open Source Libraries",
   "version": "1.0.0",
@@ -9,7 +9,7 @@
   },
   "files": [],
   "devDependencies": {
-    "renovate": "^43.0.10"
+    "renovate": "^43.4.3"
   },
   "repository": "git@github.com:posva/renovate-config.git",
   "author": "Eduardo San Martin Morote <posva13@gmail.com>",
